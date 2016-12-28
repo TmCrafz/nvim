@@ -1,2 +1,2 @@
 # nvim
-nvim plugins and configuration files which I am using.
+Neovim plugins and configuration files which I am using.
