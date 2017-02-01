@@ -5,6 +5,8 @@ syntax on
 " Load local config file when available
 set exrc
 set secure
+" Make unvisible chars visible (when list is set)
+set listchars=tab:>·,trail:.,extends:>,precedes:<,space:.
 " Change syntax highlight style for dark background
 set background=dark
 set tabstop=4
