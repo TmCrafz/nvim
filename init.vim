@@ -2,6 +2,9 @@ execute pathogen#infect()
 set number
 set autoindent
 syntax on
+" Load local config file when available
+set exrc
+set secure
 " Change syntax highlight style for dark background
 set background=dark
 set tabstop=4
