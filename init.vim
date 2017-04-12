@@ -19,6 +19,9 @@ let mapleader=","
 set mouse=
 filetype plugin indent on
 
+" Shortcut for CurtineIncSw.vim plugin for switching between header and source file (F5)
+map <F5> :call CurtineIncSw()<CR> 
+
 "##syntastic
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
