@@ -17,6 +17,9 @@ set noexpandtab
 let mapleader=","
 " Show context menu in terminal by right click
 set mouse=
+" Use a thin cursor when in insert mode
+let $NVIM_TUI_ENABLE_CURSOR_SHAPE=1
+
 filetype plugin indent on
 
 " Shortcut for CurtineIncSw.vim plugin for switching between header and source file (F5)
@@ -34,3 +37,6 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 let g:syntastic_cpp_compiler_options = '-std=c++14'
+
+
+
