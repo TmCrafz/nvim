@@ -1,7 +1,7 @@
 ## Neovim config and modules
 
 My neovim config and modules
-
+<!--
 ## YouCompleteMe
 To use YouCompleteMe update the submodules of YouCompleteMe:
 ```
@@ -14,3 +14,4 @@ Then go into YouCompleteMe dir and install YouCompleteMe with C-family language 
 ```
 ./install.py --clang-completer
 ```
+-->
