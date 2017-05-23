@@ -15,8 +15,10 @@ set shiftwidth=4
 set noexpandtab
 " Change leader to ','
 let mapleader=","
-" Show context menu in terminal by right click
-set mouse=
+" Show context menu in terminal by right click (but turn off mouse support)
+"set mouse=
+" Enable mouse support (should be enabled as default)
+"set mouse=a
 " Use a thin cursor when in insert mode
 let $NVIM_TUI_ENABLE_CURSOR_SHAPE=1
 
