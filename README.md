@@ -1,6 +1,16 @@
 ## Neovim config and modules
 
 My neovim config and modules
+
+ssh:
+```
+git clone --recursive git@github.com:TmCrafz/nvim.git
+```
+
+https:
+```
+git clone --recursive https://github.com/TmCrafz/nvim.git
+```
 <!--
 ## YouCompleteMe
 To use YouCompleteMe update the submodules of YouCompleteMe:
